@@ -20,7 +20,6 @@ public class CezarApp {
             case 3 -> { //Расшифровать файл(Brute force)
                 CezarCipher cipher = new CezarCipher();
                 cipher.decryptWithBruteForce();
-                System.out.println("");
             }
             case 4 -> { //Статистический анализ"
                 CezarCipher cipher = new CezarCipher();
